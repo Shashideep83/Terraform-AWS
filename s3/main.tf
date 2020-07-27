@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "random_id" "my-random-id" {
+resource "random_id" "my--id" {
   byte_length = 2
 }
 
