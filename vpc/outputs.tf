@@ -14,7 +14,7 @@ output "subnet1" {
   value = "${element(aws_subnet.public_subnet.*.id, 1 )}"
 }
 
-output "subnet2" {
+output "subnet3" {
   value = "${element(aws_subnet.public_subnet.*.id, 2 )}"
 }
 
