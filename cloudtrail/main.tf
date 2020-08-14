@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-resource "aws_cloudtrail" "my--cloudtrail" {
+resource "aws_cloudtrail" "my-cloudtrail" {
   name                          = "${var.cloudtrail_name}"
   s3_bucket_name                = "${aws_s3_bucket.s3_bucket_name.id}"
   include_global_service_events = true
