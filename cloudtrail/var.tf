@@ -1,2 +1,2 @@
-variable "cloudtrail_name" {}
-variable "s3_bucket_name" {}
+variable "cloudtrail" {}
+variable "s3_bucket" {}
