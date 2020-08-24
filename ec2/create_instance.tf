@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 
-resource "aws_instance" "myec2" {
+resource "aws_instance" "ec22" {
   ami = "ami-02b5fbc2cb28b77b8"
   instance_type = "t2.micro"
 
