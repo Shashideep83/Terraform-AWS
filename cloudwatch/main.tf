@@ -7,7 +7,7 @@ resource "aws_cloudwatch_metric_alarm" "cpu-utilization" {
   period              = "120"
   statistic           = "Average"
   threshold           = "75"
-  alarm_description   = "cpu-utilization exceeded 75 %"
+  alarm_description   = "cpu-utilization  75 %"
   alarm_actions       = ["${var.sns_topic}"]
 
   dimensions = {
