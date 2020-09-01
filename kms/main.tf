@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_kms_key" "my-kms-key" {
-  description         = "My KMS Keys for Data Encryption"
+  description         = "My  Keys for Data Encryption"
   enable_key_rotation = true
 
   tags = {
