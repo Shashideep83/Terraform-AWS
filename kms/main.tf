@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-resource "aws_kms_key" "mykey" {
+resource "aws_kms_key" "mykesy" {
   description         = "My  Keys for Data Encryption"
   enable_key_rotation = true
 
