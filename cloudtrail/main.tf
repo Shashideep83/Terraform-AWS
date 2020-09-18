@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_cloudtrail" "my-cloudtrail" {
   name                          = "${var.cloudtrail_name}"
   s3_bucket_name                = "${aws_s3_bucket.s3_bucket_name.id}"
-  include_global_service_events = true
+  include_global_service_events = false
   is_multi_region_trail         = true
   enable_log_file_validation    = true
 }
