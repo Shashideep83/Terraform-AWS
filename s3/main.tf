@@ -7,7 +7,7 @@ resource "random_id" "my-id" {
 }
 
 resource "aws_s3_bucket" "my-test-bucket" {
-  bucket = "${var.s3_bucket_name}-${random_id.my-random-id.dec}"
+  bucket = "${var.s3_bucket_name}-${random_id.my--id.dec}"
   acl    = "private"
 
   versioning {
