@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_kms_key" "mykesy" {
-  description         = "My  Keys = Data Encryption"
+  description         = "My  Keys = Data "
   enable_key_rotation = true
 
   tags = {
