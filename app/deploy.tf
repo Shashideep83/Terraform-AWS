@@ -7,7 +7,7 @@ resource "kubernetes_deployment" "app_deployment" {
                 kubernetes_service.monogo_service,
         ]
         metadata {
-                name = "app-deploy"
+                name = app-deploy"
                 labels = {
                         app = "nodejs"
                 }
