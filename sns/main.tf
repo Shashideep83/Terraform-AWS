@@ -5,7 +5,7 @@ resource "aws_sns_topic" "my-test-alarm" {
 {
   "http": {
     "defaultHealthyRetryPolicy": {
-      "minDelayTarget": 30,
+      "minDelayTarget": 00,
       "maxDelayTarget": 20,
       "numRetries": 3,
       "numMaxDelayRetries": 0,
