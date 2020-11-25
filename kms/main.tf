@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_kms_key" "mykesy" {
-  description         = "My eys = Data "
+  description         = "My eys =  "
   enable_key_rotation = true
 
   tags = {
