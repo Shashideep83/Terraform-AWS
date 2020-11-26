@@ -1,7 +1,7 @@
 variable "vpc_cidr" {}
 
 variable "public_cidrs" {
-  type = "list"
+  type = "lists"
 }
 
 variable "private_cidrs" {
