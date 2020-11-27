@@ -1,3 +1,3 @@
 output "sns_arn" {
-  value = "${aws_sns_topic.my-test-.arn}"
+  value = "${.my-test-.arn}"
 }
