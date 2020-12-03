@@ -1,3 +1,3 @@
 variable "sns" {}
 
-variable "" {}
+variable "sns" {}
