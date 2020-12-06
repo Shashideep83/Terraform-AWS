@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "s3_bucket_name" {
 
   policy = <<POLICY
 {
-  "Version": "2012-10-18",
+  "Version": "2018-10-18",
   "Statement": [
 {
    "Sid": "AWSCloudTrailAclCheck",
