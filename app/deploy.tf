@@ -1,7 +1,7 @@
 resource "kubernetes_deployment" "app_deployment" {
         depends_on = [
                 aws_eks_node_group.eks_node_group,
-                aws_eks_node_group.eks_node_group_2,
+                aws_eks_node_group.eks_node_group_1,
                 kubernetes_persistent_volume_claim.app_pvc,
                 kubernetes_secret.mongo_secret,
                 kubernetes_service.monogo_service,
