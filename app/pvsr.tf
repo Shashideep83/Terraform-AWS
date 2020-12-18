@@ -1,4 +1,4 @@
-resource "aws_security_group" "efs_security_group"{
+resource "aws_security_group" "efsf_security_group"{
 	name = "allow_nfs_traffic"
 	description = "Allow NFS Server Port Traffic from EKS Cluster"
 	vpc_id = var.vpc_id
