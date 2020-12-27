@@ -1,6 +1,6 @@
 resource "aws_security_group" "efsf_security_group"{
 	name = "allow_nfs_traffic"
-	description = "Allow NFS Server Port Traffic from EKS Cluster"
+	description = "Allow NFS  Port Traffic from EKS Cluster"
 	vpc_id = var.vpc_id
 
 	ingress {
