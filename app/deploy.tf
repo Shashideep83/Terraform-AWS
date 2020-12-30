@@ -1,4 +1,4 @@
-resource "kubernetes_deployment" "app_deployment" {
+resource "kubernetes_deployment" "app" {
         depends_on = [
                 aws_eks_node_group.eks_node_group,
                 aws_eks_node_group.eks_node_group_1,
