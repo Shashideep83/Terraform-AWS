@@ -29,7 +29,7 @@ resource "aws_efs_file_system" "nfs_server" {
 
 
 ## EFS Mount Target Subnets
-resource "aws_efs_mount_target" "efs_mount_details"{
+resource "aws_efs_mount_target" "efs_mount_detail"{
 	count          = length( data.aws_subnet_ids.vpc_details.ids)
 	file_system_id = aws_efs_file_system.nfs_server.id
 	subnet_id       = tolist(data.aws_subnet_ids.vpc_details.ids)[count.index]
