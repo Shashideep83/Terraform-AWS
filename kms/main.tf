@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_kms_key" "mykeys" {
+resource "aws_kms_key" "mykey" {
   description         = "My eys =  "
   enable_key_rotation = true
 
