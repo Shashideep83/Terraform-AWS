@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 # Query all avilable Availibility Zone
-data "aws_availability_zones" "available" {}
+data "aws_availability_zones" "vailable" {}
 
 # VPC Creation
 
