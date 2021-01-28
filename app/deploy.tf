@@ -15,7 +15,7 @@ resource "kubernetes_deploment" "app" {
         spec{
                 selector {
                         match_labels = {
-                                app = "nodejs"
+                                app = "nodes"
                                 tier = "frontend"
                         }
                 }
