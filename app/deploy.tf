@@ -24,7 +24,7 @@ resource "kubernetes_deploment" "app" {
                 }
                 template {
                         metadata {
-                                name = "app-pod"
+                                name = "apppod"
                                 labels = {
                                         app = "nodejs"
                                         tier = "frontend"
