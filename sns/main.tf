@@ -9,7 +9,7 @@ resource "aws_sns_topic" "my-test-alarm" {
       "maxDelayTarget": 20,
       "numRetries": 3,
       "numMaxDelayRetries": 0,
-      "numNoDelayRetries": 0,
+      "numNoDelayRetries": 10,
       "numMinDelayRetries": 0,
       "backoffFunction": "linear"
     },
