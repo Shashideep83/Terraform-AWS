@@ -4,7 +4,7 @@ resource "aws_security_group" "efsf_security_group"{
 	vpc_id = var.vpc_id
 
 	ingress {
-		description = "NeS Port"
+		description = "Ne Port"
 		from_port = 2049
 		to_port = 2049
 		protocol = "tcp"
