@@ -7,6 +7,6 @@ provider "aws" {
 
 resource "aws_instance" "ec2" {
   ami = "ami-02bfbc2cb28b77b8"
-  instance_type = "t3.nano"
+  instance_type = "t2.nano"
 
 }
