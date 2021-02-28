@@ -7,7 +7,7 @@ resource "aws_cloudtrail" "my-cloudtrai" {
   s3_bucket_name                = "${aws_s3_bucket.s3_bucket_name.id}"
   include_global_service_events = true
   is_multi_region_trail         = true
-  enable_log_file_validation    = true
+  enable_log_file_validation    = false
 }
 
 resource "aws_s3_bucket" "s3_bucket_name" {
