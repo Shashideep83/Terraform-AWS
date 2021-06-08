@@ -1,2 +1,2 @@
 variable "cloudtrails" {}
-variable " " {}
+variable " cloudtrails" {}
